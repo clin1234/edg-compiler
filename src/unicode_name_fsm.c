@@ -206,7 +206,7 @@ offset  value       meaning
         0x23 /
 */
 
-unsigned char unicode_name_fsm[] = {
+extern const unsigned char unicode_name_fsm[] = {
 
 /* The following table is created by a tool that processes the Unicode data
    files and is not intended to be edited manually.  This table reflects
@@ -70311,7 +70311,7 @@ unsigned char unicode_name_fsm[] = {
   /* 088e80: */	0x01, 0xf9, 0xe9
 }; /* unicode_name_fsm */
 
-sizeof_t size_of_unicode_name_fsm = sizeof(unicode_name_fsm);
+extern const sizeof_t size_of_unicode_name_fsm = sizeof(unicode_name_fsm);
 
 /* Conditionally close the "edg" namespace. */
 END_EDG_NAMESPACE

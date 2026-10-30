@@ -962,7 +962,7 @@ const char *header_text[] = {
 "        0x23 /",
 "*/",
 "",
-"unsigned char unicode_name_fsm[] = {",
+"extern const unsigned char unicode_name_fsm[] = {",
 "",
 "/* The following table is created by a tool that processes the Unicode data",
 "   files and is not intended to be edited manually.  This table reflects"
@@ -972,7 +972,7 @@ const char *header_text[] = {
 const char *footer_text[] = {
 "}; /* unicode_name_fsm */",
 "",
-"sizeof_t size_of_unicode_name_fsm = sizeof(unicode_name_fsm);",
+"extern const sizeof_t size_of_unicode_name_fsm = sizeof(unicode_name_fsm);",
 "",
 "/* Conditionally close the \"edg\" namespace. */",
 "END_EDG_NAMESPACE",
